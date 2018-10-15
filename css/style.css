@@ -1371,7 +1371,7 @@ header {
 .project-summery,
 .our-clients {
     padding: 150px 0;
-    background: url(../images/project-summery-bg.jpg);
+    background: url(../images/ai-serch.gif);
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -1772,7 +1772,7 @@ footer .footer-bottom .scrool-to-top p a:focus {
 }
 
 .page-header-image h2.page-header-title {
-    color: #fff;
+    color: #555;
     font-family: "Lora", serif;
     font-size: 45px;
     font-weight: 600;
@@ -1791,7 +1791,7 @@ footer .footer-bottom .scrool-to-top p a:focus {
 }
 
 .page-header-image ol li a {
-    color: #fff;
+    color: #333;
     font-weight: 600;
 }
 
@@ -2676,10 +2676,18 @@ hr.line {
 
 .about_summery img {
     margin: auto;
+    margin-bottom: 30px;
 }
 
 .about_summery {
     text-align: center;
+    color: white;
+}
+
+.about_summery p{
+    text-align: center;
+    color: white;
+    margin: 50px 0 50px 0;
 }
 
 .weichat_case .hover,
@@ -2776,4 +2784,33 @@ hr.line {
 
 .section-friend{
     background: url(../images/slider/slider03.jpg);
+}
+
+.qiji .infos{
+    text-align: left;
+    margin-top: 40px;
+}
+
+.qiji h4{
+    margin-bottom: 40px;
+}
+
+.qiji img{
+    margin: auto;
+}
+
+.old-case{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.download-last-case{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.last-case{
+    text-align: center;
+    margin-top: 50px;
 }

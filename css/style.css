@@ -1782,6 +1782,16 @@ footer .footer-bottom .scrool-to-top p a:focus {
     position: relative;
     text-align: center;
     text-transform: uppercase;
+
+
+    text-shadow:#fff 2px 0 0,#fff 0 2px 0,#fff -2px 0 0,#fff 0 -2px 0;
+
+    -webkit-text-shadow:#fff 2px 0 0,#fff 0 2px 0,#fff -2px 0 0,#fff 0 -2px 0;
+
+    -moz-text-shadow:#fff 2px 0 0,#fff 0 2px 0,#fff -2px 0 0,#fff 0 -2px 0;
+
+    *filter: Glow(color=#fff, strength=2);
+
 }
 
 .page-header-image ol {
@@ -2813,4 +2823,9 @@ hr.line {
 .last-case{
     text-align: center;
     margin-top: 50px;
+}
+
+
+.WordSection1 p{
+    color: black;
 }

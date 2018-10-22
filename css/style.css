@@ -786,7 +786,7 @@ header {
     margin-top: 5px
 }
 
-.navbar-brand img{
+.navbar-brand img {
     margin-top: -8px;
 }
 
@@ -842,7 +842,6 @@ header {
     font-size: 25px;
     font-family: "Open Sans", sans-serif;
 }
-
 
 .section-header img {
     margin-top: -250px;
@@ -935,6 +934,29 @@ header {
     position: relative;
 }
 
+.call-to-action:before {content: ' ';position: fixed;z-index: -1;top: 0;right: 0;bottom: 0;left: 0;background: url(../images/banner-bg.jpg) center 0 no-repeat;background-size: cover;}
+
+@media screen and (max-width: 767px) {
+    .call-to-action {
+        background-position: -99999px -99999px;
+    }
+
+    .call-to-action:before {
+        content: "";
+        background-image: inherit;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover;
+        background-size: cover !important;
+        z-index: -1;
+    }
+}
+
 .call-to-action::before {
     position: absolute;
     content: "";
@@ -987,9 +1009,10 @@ header {
     border-bottom-color: #fff;
 }
 
-.call-to-action .bg{
+.call-to-action .bg {
     min-height: 130px;
 }
+
 /* =========================
     Latest Work
    =========================
@@ -998,7 +1021,7 @@ header {
     display: none
 }
 
-.latest-work h2{
+.latest-work h2 {
     margin-top: 50px;
 }
 
@@ -1006,8 +1029,8 @@ header {
     padding-top: 50px;
 }
 
-.latest-work p{
-   font-size: 17px;
+.latest-work p {
+    font-size: 17px;
     text-align: left;
 }
 
@@ -1016,7 +1039,7 @@ header {
     margin-bottom: 40px;
 }
 
-.latest-work .good-idea{
+.latest-work .good-idea {
     margin: auto;
 }
 
@@ -1124,7 +1147,7 @@ header {
     position: relative;
 }
 
-.testimonial .bg{
+.testimonial .bg {
     min-height: 100px;
 }
 
@@ -1317,7 +1340,7 @@ header {
     margin-bottom: 30px
 }
 
-.why-choose-us span{
+.why-choose-us span {
     color: #00bbee;
     font-weight: bold;
 }
@@ -1783,14 +1806,13 @@ footer .footer-bottom .scrool-to-top p a:focus {
     text-align: center;
     text-transform: uppercase;
 
+    text-shadow: #fff 2px 0 0, #fff 0 2px 0, #fff -2px 0 0, #fff 0 -2px 0;
 
-    text-shadow:#fff 2px 0 0,#fff 0 2px 0,#fff -2px 0 0,#fff 0 -2px 0;
+    -webkit-text-shadow: #fff 2px 0 0, #fff 0 2px 0, #fff -2px 0 0, #fff 0 -2px 0;
 
-    -webkit-text-shadow:#fff 2px 0 0,#fff 0 2px 0,#fff -2px 0 0,#fff 0 -2px 0;
+    -moz-text-shadow: #fff 2px 0 0, #fff 0 2px 0, #fff -2px 0 0, #fff 0 -2px 0;
 
-    -moz-text-shadow:#fff 2px 0 0,#fff 0 2px 0,#fff -2px 0 0,#fff 0 -2px 0;
-
-    *filter: Glow(color=#fff, strength=2);
+    *filter: Glow(color #fff, strength 2);
 
 }
 
@@ -2018,7 +2040,6 @@ form.contact-form .submit-btn:hover {
    ==========================================
    ================================================== */
 .blog-header {
-    background: url(../images/blog/blog-header-bg.png);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -2680,9 +2701,6 @@ hr.line {
     text-align: center;
 }
 
-.pages-header-weichat {
-    background: url(../images/wechat_applet/weichat-header-bg.jpg);
-}
 
 .about_summery img {
     margin: auto;
@@ -2694,14 +2712,14 @@ hr.line {
     color: white;
 }
 
-.about_summery p{
+.about_summery p {
     text-align: center;
     color: white;
     margin: 50px 0 50px 0;
 }
 
 .weichat_case .hover,
-.section-moban .hover{
+.section-moban .hover {
     opacity: 0;
     background-color: rgba(100, 200, 255, 0.7);
     position: absolute;
@@ -2713,7 +2731,7 @@ hr.line {
 }
 
 .weichat_case .case:hover .hover,
-.section-moban .moban:hover .hover{
+.section-moban .moban:hover .hover {
     opacity: 1;
 }
 
@@ -2722,7 +2740,7 @@ hr.line {
 }
 
 .weichat_case .case .hover a,
-.section-moban .moban .hover a{
+.section-moban .moban .hover a {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -2732,58 +2750,46 @@ hr.line {
     text-shadow: 5px 1px 6px #000;
 }
 
-.section-moban{
+.section-moban {
     text-align: center;
 }
 
-.section-moban h3{
+.section-moban h3 {
     margin-top: 50px;
 }
 
-.section-moban h4{
+.section-moban h4 {
     margin-bottom: 50px;
 }
 
-.section-moban .moban{
+.section-moban .moban {
     margin-bottom: 30px
 }
 
-.section-movie{
-    padding: 200px 0;
-    background: url(../images/movie_ad/project-bg.jpg);
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    text-align: center;
-    color: white;
-}
 
-.quyu h4{
+.quyu h4 {
     margin: 0px;
     color: black;
 }
 
-.quyu p{
+.quyu p {
     margin-bottom: 30px;
     color: #2E2E2E;
 }
 
-.section-app-ad h2,.section-app-ad p{
+.section-app-ad h2, .section-app-ad p {
     color: white;
 }
 
-.section-app-ad{
+.section-app-ad {
     padding: 70px 0;
 }
 
-.about-services p{
+.about-services p {
     color: #2E2E2E;
 }
 
-.section-pad p{
+.section-pad p {
     color: black;
 }
 
@@ -2792,40 +2798,39 @@ hr.line {
     margin: 50px 0;
 }
 
-.section-friend{
+.section-friend {
     background: url(../images/slider/slider03.jpg);
 }
 
-.qiji .infos{
+.qiji .infos {
     text-align: left;
     margin-top: 40px;
 }
 
-.qiji h4{
+.qiji h4 {
     margin-bottom: 40px;
 }
 
-.qiji img{
+.qiji img {
     margin: auto;
 }
 
-.old-case{
+.old-case {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.download-last-case{
+.download-last-case {
     text-align: center;
     align-content: center;
     align-items: center;
 }
 
-.last-case{
+.last-case {
     text-align: center;
     margin-top: 50px;
 }
 
-
-.WordSection1 p{
+.WordSection1 p {
     color: black;
 }
